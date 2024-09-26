@@ -75,7 +75,6 @@ function ForgetPass() {
               <span>Login Now?</span>
             </Link>
           </div>
-
           <Button
             type="submit"
             onClick={SpinnerSub}
