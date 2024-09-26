@@ -1,0 +1,147 @@
+.contaner {
+    /* max-width: 1201px; */
+    width:100%;
+    height: 78px;
+    display: flex;
+    position: relative;
+    background-color: var(--color-whiat);
+    border-radius: 10px;
+    margin-top: 20px;
+    /* margin-left: 20px; */
+    
+}
+
+.HeroNav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.logonav{
+    width: 50%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.MainSearch input {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--textColor--Wight);
+}
+
+.MainSearch box-icon {
+    position: absolute;
+    left: 40px;
+    width: 30px;
+}
+
+.ContanerHero {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.ContanerHero p {
+    margin-top: 20px;
+
+}
+
+.ContanerHero box-icon {
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.downArrow {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 1px solid var(--bg-Praimry);
+    top: 70px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    z-index: 5555555;
+    /* border: 1px solid rgba(255, 255, 255, 0.25); */
+}
+
+.listDown {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    z-index: 5555;
+}
+
+.listDown .listDownItem {
+    list-style: none;
+    width: 119%;
+    height: 40px;
+    margin-right: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5555555;
+    cursor: pointer;
+
+}
+.listDown .listDownItem:hover{
+    background-color: var(--bg-Praimry);
+    border-radius: 20px;
+    color: var(--textColor--Wight);
+}
+
+
+.img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: rgba(244, 206, 155, 1);
+}
+
+
+.ContanerHero img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.MainNvigation {
+
+    box-icon {
+        margin-top: 20px;
+        margin-right: 40px;
+        position: relative;
+        cursor: pointer;
+    }
+}
+
+.MainNvigation box-icon::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: -2px;
+    right: -4px;
+    background-color: var(--bg-dinger);
+    border-radius: 50%;
+    border: 1px solid var(--color-whiat);
+
+}

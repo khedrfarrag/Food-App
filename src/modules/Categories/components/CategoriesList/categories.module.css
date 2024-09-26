@@ -1,0 +1,166 @@
+.contaner {
+    /* width: 90%;
+    margin: auto;
+    margin-top: 50px; */
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+
+.HeadDetalis {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    Button {
+        width: 224px;
+        height: 48px;
+        background-color: var(--bg-Praimry);
+        text-transform: capitalize;
+        border: none;
+    }
+
+    Button:hover {
+        background-color: var(--textColor--Wight);
+        color: var(--bg-Praimry);
+        border: 1px solid var(--bg-Praimry);
+    }
+}
+
+.HeadTitle {
+    width: 277px;
+    height: 44px;
+
+    h1 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        text-transform: capitalize;
+
+    }
+
+    span {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-transform: capitalize;
+
+    }
+
+}
+
+
+
+
+
+.secSearching {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.searchinput {
+    width: 750px;
+    height: 48px;
+    position: relative;
+    border: 1px solid var(--textColor--gray);
+    border-radius: 10px;
+    overflow: hidden;
+    flex-grow: 3;
+
+    input {
+        width: 100%;
+        height: 100%;
+        border: none;
+        outline: none !important;
+        padding-left: 40px;
+    }
+
+    box-icon {
+        position: absolute;
+        top: 30%;
+        left: 2%;
+        transform: translate(-30%);
+        cursor: pointer;
+        width: 20px;
+    }
+}
+
+.Option {
+    width: 172px;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid var(--textColor--gray);
+    flex-grow: 1;
+
+    select {
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        color: var(--textColor--gray);
+        border: none;
+        outline: none;
+    }
+}
+
+.optionCategory {
+    width: 172px;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid var(--textColor--gray);
+    flex-grow: 1;
+
+
+    select {
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        color: var(--textColor--gray);
+        border: none;
+        outline: none;
+    }
+}
+
+
+
+
+
+.contanerUsers {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.headTableItem {
+    /* background-color: blueviolet; */
+    padding: 20px;
+}
+
+.headTable {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--textColor--gray);
+    border-radius: 20px;
+
+}
+
+.bodyTable {
+    display: flex;
+    justify-content: space-around;
+
+    .headTableItem {
+        /* background-color: chocolate; */
+    }
+
+    /* align-items: center;  */
+}

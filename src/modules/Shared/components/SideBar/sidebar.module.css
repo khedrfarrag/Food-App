@@ -1,0 +1,430 @@
+#active{
+    background-color: var(--textColor-G-opacty);
+
+}
+
+.contanerSidbar {
+    width: 273px;
+    height: 100%;
+    background-color: var(--bg-Sidebar);
+    border-top-right-radius: 80px;
+    transition: .6s all ease-in-out;
+    transform: translateY(-30px);
+    z-index: 55555555555;
+}
+
+.contanerClaps {
+    width: 103px;
+    /* height: 100%; */
+    background-color: var(--bg-Sidebar);
+    border-top-right-radius: 80px;
+    transition: .6s all ease-in-out;
+    transform: translateY(-20px);
+    z-index: 55555555555;
+
+}
+
+
+.contanerClaps .Sidebar .imag {
+    width: 146px;
+    height: 76px;
+    margin-top: 20px;
+    margin-left: -30px;
+    cursor: pointer;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.contanerClaps .Colaps {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    /* margin-top: 80px; */
+    margin-top: 100px;
+
+}
+
+.contanerClaps .Colaps .HeroHome {
+    height: 50px;
+    margin-left: -28px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+
+
+    :nth-child(1) {
+        margin-left: 20px;
+        color: var(--textColor--Wight);
+    }
+
+    /* :nth-child(2) {
+        margin-left: 30px;
+        color: var( --textColor--Wight);
+    } */
+}
+.contanerClaps .Colaps .HeroHome::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 100%;
+    /* background-color: var(--bg-Praimry); */
+    left: -3px;
+    bottom: 0;
+}
+
+.contanerClaps .Colaps .HeroUser {
+    height: 50px;
+    margin-left: -28px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+
+    :nth-child(1) {
+        margin-left: 20px;
+    }
+
+    /* :nth-child(2) {
+        margin-left: 30px;
+        color: var( --textColor--Wight);
+
+    } */
+
+}
+
+.contanerClaps .Colaps .HeroUser::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 100%;
+    /* background-color: var(--bg-Praimry); */
+    left: -3px;
+    bottom: 0;
+}
+
+.contanerClaps .Colaps .HeroRecipse {
+    height: 50px;
+    margin-left: -28px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+
+
+    :nth-child(1) {
+        margin-left: 20px;
+    }
+
+    /* :nth-child(2) {
+        margin-left: 30px;
+        color: var( --textColor--Wight);
+
+    } */
+}
+
+.contanerClaps .Colaps .HeroRecipse::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 100%;
+    /* background-color: var(--bg-Praimry); */
+    left: -3px;
+    bottom: 0;
+}
+
+.contanerClaps .Colaps .category {
+    height: 50px;
+    margin-left: -28px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+
+    :nth-child(1) {
+        margin-left: 20px;
+    }
+
+    /* :nth-child(2) {
+        margin-left: 30px;
+        color: var( --textColor--Wight);
+
+    } */
+}
+
+.contanerClaps .Colaps .category::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 100%;
+    /* background-color: var(--bg-Praimry); */
+    left: -3px;
+    bottom: 0;
+}
+
+.contanerClaps .Colaps .Changepass {
+    height: 50px;
+    margin-left: -28px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+
+    :nth-child(1) {
+        margin-left: 20px;
+    }
+
+    /* :nth-child(2) {
+        margin-left: 30px;
+        color: var( --textColor--Wight);
+    
+    } */
+}
+
+.contanerClaps .Colaps .Changepass::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 100%;
+    /* background-color: var(--bg-Praimry); */
+    left: -3px;
+    bottom: 0;
+}
+
+.contanerClaps .Colaps .Logout {
+    height: 50px;
+    margin-left: -28px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+
+    :nth-child(1) {
+        margin-left: 20px;
+    }
+
+    /* :nth-child(2) {
+        margin-left: 30px;
+        color: var( --textColor--Wight);
+
+    } */
+
+}
+
+.contanerClaps .Colaps .Logout::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 100%;
+    /* background-color: var(--bg-Praimry); */
+    left: -3px;
+    bottom: 0;
+}
+
+/* sidebar normal */
+
+.imag {
+    width: 176px;
+    height: 76px;
+    margin-top: 30px;
+    margin-left: 40px;
+    cursor: pointer;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.MainList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 100px;
+}
+
+.HeroHome{
+    height: 50px;
+    margin-left: -28px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    /* background-color: aqua; */
+
+
+    :nth-child(1) {
+        margin-left: 30px;
+        color: var(--textColor--Wight);
+    }
+
+    :nth-child(2) {
+        margin-left: 30px;
+        color: var(--textColor--Wight);
+    }
+}
+
+.HeroHome::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 100%;
+    background-color: var(--bg-Praimry);
+    left: -3px;
+    bottom: 0;
+}
+
+.HeroUser {
+    height: 50px;
+    margin-left: -28px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+
+    :nth-child(1) {
+        margin-left: 30px;
+    }
+
+    :nth-child(2) {
+        margin-left: 30px;
+        color: var(--textColor--Wight);
+
+    }
+
+}
+
+.HeroUser::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 100%;
+    /* background-color: var(--bg-Praimry); */
+    left: -3px;
+    bottom: 0;
+}
+
+.HeroRecipse {
+    height: 50px;
+    margin-left: -28px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+
+
+    :nth-child(1) {
+        margin-left: 30px;
+    }
+
+    :nth-child(2) {
+        margin-left: 30px;
+        color: var(--textColor--Wight);
+
+    }
+}
+
+.HeroRecipse::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 100%;
+    /* background-color: var(--bg-Praimry); */
+    left: -3px;
+    bottom: 0;
+}
+
+.category {
+    height: 50px;
+    margin-left: -28px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+
+    :nth-child(1) {
+        margin-left: 30px;
+    }
+
+    :nth-child(2) {
+        margin-left: 30px;
+        color: var(--textColor--Wight);
+
+    }
+}
+
+.category::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 100%;
+    /* background-color: var(--bg-Praimry); */
+    left: -3px;
+    bottom: 0;
+}
+
+.Changepass {
+    height: 50px;
+    margin-left: -28px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+
+    :nth-child(1) {
+        margin-left: 30px;
+    }
+
+    :nth-child(2) {
+        margin-left: 30px;
+        color: var(--textColor--Wight);
+
+    }
+}
+
+.Changepass::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 100%;
+    /* background-color: var(--bg-Praimry); */
+    left: -3px;
+    bottom: 0;
+}
+
+.Logout {
+    height: 50px;
+    margin-left: -28px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+
+    :nth-child(1) {
+        margin-left: 30px;
+    }
+
+    :nth-child(2) {
+        margin-left: 30px;
+        color: var(--textColor--Wight);
+
+    }
+
+}
+
+.Logout::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 100%;
+    /* background-color: var(--bg-Praimry); */
+    left: -3px;
+    bottom: 0;
+}

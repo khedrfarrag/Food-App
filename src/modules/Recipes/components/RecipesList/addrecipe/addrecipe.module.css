@@ -1,0 +1,177 @@
+
+
+
+.SectionFotter{
+    margin-top: 50px;
+    /* margin-left: auto; */
+    height: 167px;
+    background-color: var(--bg-Section);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+.SectionFotter .TitleSec{
+    width: 480px;
+    
+}
+.SectionFotter .TitleSec h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.13px;
+    color: var(--textColor--Black);
+}
+.SectionFotter .TitleSec span{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.13px;
+    color: var(--bg-Praimry);
+}
+.SectionFotter .TitleSec p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 4%;
+    color: var(--textColor--Black);
+}
+.BtnSec button{
+    width: 223px;
+    height: 48px;
+    background-color: var(--bg-Praimry);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+}
+
+.ContanerForm{
+    /* background-color: aqua; */
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    gap: 10px;
+}
+.Addname{
+    width: 100%;
+}
+
+.AddtagId{
+    width: 100%;
+}
+.Addprice{
+    width: 100%;
+}
+.AddcategoriesIds{
+    width: 100%;
+}
+.Adddescription{
+    width: 100%;
+}
+.recipeImage{
+    width: 100%;
+}
+input{
+    width: 100%;
+    height: 60px;
+    background-color: var(     --color-text-whiat);
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding-left: 1.2rem;
+
+}
+select{
+    /* margin: auto; */
+    width: 100%;
+    height: 60px;   
+    background-color: var(     --color-text-whiat);
+    border-radius: 10px;
+    outline: none;
+    border:  none;
+    padding-left: 1.2rem;
+
+}
+.categoriesIds{
+    /* background-color: var(--textColor--Wight); */
+}
+textarea{
+    margin: auto;
+    width: 100%;
+    background-color: var(     --color-text-whiat);
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    display: flex;
+    padding-left: 1.2rem;
+    position: relative;
+}
+
+.Bttn{
+    position: absolute;
+    right: 0;
+    bottom: -80px;
+    Button:nth-child(1){
+        width: 170px;
+        height: 48px;
+        background-color: var(--textColor--Wight);
+        border: 1px solid var(--bg-Praimry);
+        color: var(--bg-Praimry);
+    } 
+    Button:nth-child(1):hover{
+        background-color: var( --bg-dinger);
+        color: var(--textColor--Wight);
+        border: none;
+    } 
+    Button:nth-child(2){
+        width: 103px;
+        height: 48px;
+        margin-left: 30px;
+        border: 1px solid var(--bg-Praimry);
+
+    } 
+    Button:nth-child(2):hover{
+        background-color: var(--textColor--Wight) !important;
+        border: 1px solid var(--bg-Praimry)!important;
+        color: var(--bg-Praimry);
+    }
+}
+.error{
+    /* position: absolute; */
+    /* right: 50px; */
+    /* bottom: 0; */
+    color: red;
+}
+/* .error:nth-child(2){
+    position: relative;
+    right: 0;
+    bottom: 10px;
+    color: red;
+}
+.error:nth-child(3){
+    position: relative;
+    right: 0;
+    bottom: 10px;
+    color: red;
+}
+.error:nth-child(4){
+    position: relative;
+    right: 0;
+    bottom: 10px;
+    color: red;
+}
+.error:nth-child(5){
+    position: relative;
+    right: 0;
+    bottom: 10px;
+    color: red;
+}
+.error:nth-child(6){
+    position: relative;
+    right: 0;
+    bottom: 10px;
+    color: red;
+} */

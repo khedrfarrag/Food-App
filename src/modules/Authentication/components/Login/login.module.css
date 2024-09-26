@@ -1,0 +1,210 @@
+.contaner {
+  /* max-width: 1150px; */
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  background: linear-gradient(45deg, rgba(47, 140, 96, .8), rgba(0, 0, 0, 0.8));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.Spinners{
+  /* position: relative; */
+  /* transform: translateX(50%); */
+  margin-left: 45%;
+  margin-top: 10%;
+  /* background-color: aqua; */
+}
+.imgLogo {
+
+  width: 366px;
+  height: 104px;
+  object-fit: cover;
+}
+
+.MainForm {
+  /* background-color: aqua; */
+  width: 569px;
+
+}
+
+.mainEmail {
+  display: flex;
+  align-items: center;
+  background-color: rgba(247, 247, 247, 1);
+  margin-bottom: 1.2rem;
+  padding-left: .9rem;
+  border-radius: 15px;
+  position: relative;
+  gap: 10px;
+}
+
+.mainEmail::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 75%;
+  background-color: rgba(131, 145, 161, 1);
+  left: 50px;
+}
+
+
+
+.mainEmail input {
+  border-radius: 10px;
+  height: 56px;
+  border: none;
+}
+
+.mainpassword {
+  display: flex;
+  align-items: center;
+  background-color: rgba(247, 247, 247, 1);
+  padding-left: .9rem;
+  padding-right: .9rem;
+  border-radius: 15px;
+  position: relative;
+  gap: 10px;
+}
+.mainpassword span:nth-child(3) {
+  cursor: pointer;
+ 
+
+}
+
+
+
+.mainpassword span:nth-child(4) {
+  cursor: pointer;
+
+
+}
+
+.mainpassword::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 75%;
+  background-color: rgba(131, 145, 161, 1);
+  left: 50px;
+}
+
+.mainpassword input {
+  border-radius: 10px;
+  height: 56px;
+  border: none;
+
+}
+.bookingform {
+  width: 746px;
+  /* height: 561px; */
+  background-color: white;
+  padding: 50px 30px 30px 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+ 
+}
+
+.bookingform .LoginTitle {
+  width: 569px;
+}
+
+.bookingform .LoginTitle h1 {
+  font-size: 35px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: rgba(73, 73, 73, 1);
+}
+
+.bookingform .LoginTitle p {
+  text-transform: capitalize;
+  color: rgba(73, 73, 73, 0.6);
+}
+
+.regisForgit {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.2rem;
+}
+
+.regisForgit a:nth-child(1) span{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: rgba(58, 58, 61, 1);
+  text-transform: capitalize;
+}
+
+.regisForgit a:nth-child(2) span {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: rgba(74, 163, 90, 1);
+  text-transform: capitalize;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+.bookingform form input,
+.bookingform form textarea {
+  width: 100%;
+  background-color: transparent;
+  padding: 12px 10px;
+  margin-bottom: 10px;
+  outline: none;
+  font-size: 18px;
+  color: rgb(46, 48, 49);
+  /* color-scheme: dark; */
+}
+
+.bookingform form input::-moz-placeholder,
+.bookingform form textarea::-moz-placeholder {
+  color: grey;
+
+  font-weight: 500;
+}
+
+.bookingform form input::placeholder,
+.bookingform form textarea::placeholder {
+  color: grey;
+  font-weight: 500;
+}
+
+
+.bookingform .btn1 {
+  display: inline-block;
+  /* color: rgba(74, 163, 90, 1); */
+
+  background-color:rgba(74, 163, 90, 1) ;
+  color: white;
+  border: 1px solid white;
+  width: 100%;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  transition: 0.3s all ease-in-out;
+  position: relative;
+  text-align: center;
+}
+
+.bookingform .btn1:hover {
+  background-color: rgba(58, 58, 61, 1);
+  color: white;
+}
+.noshow{
+  display: none;
+}

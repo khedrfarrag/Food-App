@@ -1,0 +1,400 @@
+.contaner {
+    /* max-width: 1150px; */
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background: linear-gradient(45deg, rgba(47, 140, 96, .8), rgba(0, 0, 0, 0.8));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .imgLogo {
+    width: 266px;
+    height: 80px;
+    object-fit: cover;
+    /* background-color: aqua; */
+    /* margin-top: 50px; */
+  }
+  
+  .bookingform {
+    width: 1058px;
+    height: 561px;
+    background-color: var( --color-whiat);
+    padding: 50px 30px 30px 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 50px auto;
+    
+  
+  }
+  
+  .MainForm {
+    /* background-color: aqua; */
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  
+  }
+  
+  .contanerForms {
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+    gap: 10px;
+  }
+  .contanerForms .RegisterLeft{
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* background-color: blueviolet; */
+  }
+  .contanerForms .RegisterRight{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* background-color: blueviolet; */
+  }
+  .mainName {
+    display: flex;
+    align-items: center;
+    background-color: rgba(247, 247, 247, 1);
+    /* margin-bottom: 1.2rem; */
+    padding-left: .9rem;
+    border-radius: 15px;
+    position: relative;
+    gap: 10px;
+  }
+  
+  
+  .mainName::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 75%;
+    background-color: rgba(131, 145, 161, 1);
+    left: 50px;
+  }
+  
+  
+  
+  .mainName input {
+    border-radius: 10px;
+    height: 56px;
+    border: none;
+  }
+  
+  .mainpassword {
+    display: flex;
+    align-items: center;
+    background-color: rgba(247, 247, 247, 1);
+    padding-left: .9rem;
+    padding-right: .9rem;
+    border-radius: 15px;
+    position: relative;
+    gap: 10px;
+  }
+  
+  
+  .mainpassword box-icon:nth-child(3) {
+    cursor: pointer;
+  
+  }
+  
+  .mainpassword box-icon:nth-child(4) {
+    cursor: pointer;
+  
+  }
+  
+  .mainpassword::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 75%;
+    background-color: rgba(131, 145, 161, 1);
+    left: 50px;
+  }
+  
+  .mainpassword input {
+    border-radius: 10px;
+    height: 56px;
+    border: none;
+  
+  }
+  
+  .mainOtp {
+    display: flex;
+    align-items: center;
+    background-color: rgba(247, 247, 247, 1);
+    padding-left: .9rem;
+    padding-right: .9rem;
+    border-radius: 15px;
+    position: relative;
+    gap: 10px;
+  }
+  
+  .mainOtp box-icon:nth-child(3) {
+    cursor: pointer;
+  
+  }
+  
+  .mainOtp box-icon:nth-child(4) {
+    cursor: pointer;
+  
+  }
+  
+  .mainOtp::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 75%;
+    background-color: rgba(131, 145, 161, 1);
+    left: 50px;
+  }
+  
+  .mainOtp input {
+    border-radius: 10px;
+    height: 56px;
+    border: none;
+  
+  }
+  
+  .mainNpassword {
+    display: flex;
+    align-items: center;
+    background-color: rgba(247, 247, 247, 1);
+    padding-left: .9rem;
+    padding-right: .9rem;
+    border-radius: 15px;
+    position: relative;
+    gap: 10px;
+  }
+  
+  .mainNpassword box-icon:nth-child(3) {
+    cursor: pointer;
+  
+  }
+  
+  .mainNpassword box-icon:nth-child(4) {
+    cursor: pointer;
+  
+  }
+  
+  .mainNpassword::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 75%;
+    background-color: rgba(131, 145, 161, 1);
+    left: 50px;
+  }
+  
+  .mainNpassword input {
+    border-radius: 10px;
+    height: 56px;
+    border: none;
+  
+  }
+  
+  .mainCpassword {
+    display: flex;
+    align-items: center;
+    background-color: rgba(247, 247, 247, 1);
+    padding-left: .9rem;
+    padding-right: .9rem;
+    border-radius: 15px;
+    position: relative;
+    gap: 10px;
+  }
+  
+  .mainCpassword box-icon:nth-child(3) {
+    cursor: pointer;
+  
+  }
+  
+  .mainCpassword box-icon:nth-child(4) {
+    cursor: pointer;
+  
+  }
+  
+  .mainCpassword::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 75%;
+    background-color: rgba(131, 145, 161, 1);
+    left: 50px;
+  }
+  
+  .mainCpassword input {
+    border-radius: 10px;
+    height: 56px;
+    border: none;
+  
+  }
+  
+  
+  
+  .bookingform .LoginTitle {
+    width: 569px;
+    /* background-color: aqua; */
+    align-self: flex-start;
+  }
+  
+  .bookingform .LoginTitle h1 {
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: rgba(73, 73, 73, 1);
+  }
+  
+  .bookingform .LoginTitle p {
+    text-transform: capitalize;
+    color: rgba(73, 73, 73, 0.6);
+  }
+  
+  .regisForgit {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.2rem;
+  }
+  
+  .regisForgit a:nth-child(1) span {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 19.36px;
+    color: rgba(58, 58, 61, 1);
+    text-transform: capitalize;
+  }
+  
+  .regisForgit a:nth-child(2) span {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 19.36px;
+    color: rgba(74, 163, 90, 1);
+    text-transform: capitalize;
+  
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+  
+  .bookingform form input,
+  .bookingform form textarea {
+    width: 100%;
+    background-color: transparent;
+    padding: 12px 10px;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 18px;
+    color: rgb(46, 48, 49);
+    /* color-scheme: dark; */
+  }
+  
+  .bookingform form input::-moz-placeholder,
+  .bookingform form textarea::-moz-placeholder {
+    color: grey;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  
+  .bookingform form input::placeholder,
+  .bookingform form textarea::placeholder {
+    color: grey;
+    font-weight: 500;
+  }
+  
+  
+  .bookingform .btn1 {
+    display: inline-block;
+    background-color: rgba(74, 163, 90, 1);
+    color: white;
+    border: 1px solid white;
+    width: 50%;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: 0.3s all ease-in-out;
+    /* position: relative; */
+    text-align: center;
+  }
+  
+  .bookingform .btn1:hover {
+    background-color: rgba(58, 58, 61, 1);
+    color: white;
+  }
+  
+  .ImageProfile{
+    width: 100%;
+    background-color: rgba(247, 247, 247, 1);
+    height: 70px;
+    border-radius: 10px;
+  }
+  .MainForm a{
+    text-decoration: dashed !important;
+    position: relative;
+    left: 45%;
+    color: var(--bg-Praimry);
+  }
+  .errors{
+    display: flex;
+    align-items: center;
+    background-color: rgba(247, 247, 247, 1);
+    padding-left: .9rem;
+    padding-right: .9rem;
+    border-radius: 15px;
+    position: relative;
+    gap: 10px;
+    border: 1px solid var( --bg-dinger) !important;
+  }
+  .ErrorImage{
+    width: 100%;
+    background-color: rgba(247, 247, 247, 1);
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid var(--bg-dinger);
+  }
+  .ErrorOtp{
+    border: 1px solid var(--bg-dinger);
+    display: flex;
+    align-items: center;
+    background-color: rgba(247, 247, 247, 1);
+    padding-left: .9rem;
+    padding-right: .9rem;
+    border-radius: 15px;
+    position: relative;
+    gap: 10px;
+  }
+  .ErrorName{
+    display: flex;
+    align-items: center;
+    background-color: rgba(247, 247, 247, 1);
+    padding-left: .9rem;
+    border-radius: 15px;
+    position: relative;
+    gap: 10px;
+    border: 1px solid var(--bg-dinger);
+  
+  }

@@ -1,0 +1,101 @@
+.contaner{
+    width: 100%;
+    height: 100vh;
+    /* background: url("../../../../assets/Notfound-header.svg"); */
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.TitleFound{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    /* margin-left: 100px; */
+    transform: translateX(50%);
+    z-index: 55555;
+
+}
+.Headimg{
+    width: 366px;
+    height: 104px;
+    margin-top: 50px;
+}
+.Headimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.MainTitle{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.Title{
+    width: 418px;
+    /* background-color: aqua; */
+}
+.Title h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 48.41px;
+    color: var(--textColor--Black);
+text-transform: capitalize;
+
+}
+.Title h1 span{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    color: var(--textColor--Black);
+text-transform: capitalize;
+
+}
+.Title h1 h3{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.41px;
+    color: var(--bg-Praimry);
+text-transform: capitalize;
+
+}
+
+.Title p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 4%;
+    color: var(--textColor--Black);
+    text-transform: capitalize;
+
+}
+
+
+
+.ButtonBack button{
+width: 302px;
+height: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: var(--bg-Praimry);
+border: none;
+gap: 20px;
+text-transform: capitalize;
+}
+.notfound{
+width: 100%;
+background:url("../../../../assets/Notfound-header.svg");
+background-size: cover;
+background-position: 100%;
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.notfound img{
+    width: 775px;
+    height: 601px;
+    object-fit: cover;
+    transform: translateY(10%);
+}
